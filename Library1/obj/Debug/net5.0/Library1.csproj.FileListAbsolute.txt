@@ -1,0 +1,12 @@
+C:\Users\i-nakamura\source\repos\DebugHelper\Library1\bin\Debug\net5.0\Library1.deps.json
+C:\Users\i-nakamura\source\repos\DebugHelper\Library1\bin\Debug\net5.0\Library1.dll
+C:\Users\i-nakamura\source\repos\DebugHelper\Library1\bin\Debug\net5.0\ref\Library1.dll
+C:\Users\i-nakamura\source\repos\DebugHelper\Library1\bin\Debug\net5.0\Library1.pdb
+C:\Users\i-nakamura\source\repos\DebugHelper\Library1\obj\Debug\net5.0\Library1.csprojAssemblyReference.cache
+C:\Users\i-nakamura\source\repos\DebugHelper\Library1\obj\Debug\net5.0\Library1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\i-nakamura\source\repos\DebugHelper\Library1\obj\Debug\net5.0\Library1.AssemblyInfoInputs.cache
+C:\Users\i-nakamura\source\repos\DebugHelper\Library1\obj\Debug\net5.0\Library1.AssemblyInfo.cs
+C:\Users\i-nakamura\source\repos\DebugHelper\Library1\obj\Debug\net5.0\Library1.csproj.CoreCompileInputs.cache
+C:\Users\i-nakamura\source\repos\DebugHelper\Library1\obj\Debug\net5.0\Library1.dll
+C:\Users\i-nakamura\source\repos\DebugHelper\Library1\obj\Debug\net5.0\ref\Library1.dll
+C:\Users\i-nakamura\source\repos\DebugHelper\Library1\obj\Debug\net5.0\Library1.pdb

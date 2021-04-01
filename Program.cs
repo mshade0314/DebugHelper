@@ -1,4 +1,6 @@
-﻿using System;
+﻿using Library1;
+using Library2;
+using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
@@ -20,7 +22,12 @@ namespace DebugHelper
             foreach (var p in persons)
             {
                 Console.WriteLine(p.Name);
-            }            
+            }
+
+            var lib1 = new Library1Class();
+            lib1.MethodA();
+            var lib2 = new Library2Class();
+            lib2.MethodB();
         }
 
         [DebuggerStepThrough]

@@ -1,11 +1,46 @@
 {
   "version": 3,
   "targets": {
-    "net5.0": {}
+    "net5.0": {
+      "Library1/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/Library1.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Library1.dll": {}
+        }
+      },
+      "Library2/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/Library2.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Library2.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Library1/1.0.0": {
+      "type": "project",
+      "path": "Library1/Library1.csproj",
+      "msbuildProject": "Library1/Library1.csproj"
+    },
+    "Library2/1.0.0": {
+      "type": "project",
+      "path": "Library2/Library2.csproj",
+      "msbuildProject": "Library2/Library2.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net5.0": []
+    "net5.0": [
+      "Library1 >= 1.0.0",
+      "Library2 >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\i-nakamura\\.nuget\\packages\\": {},
@@ -37,7 +72,14 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\i-nakamura\\source\\repos\\DebugHelper\\Library1\\Library1.csproj": {
+              "projectPath": "C:\\Users\\i-nakamura\\source\\repos\\DebugHelper\\Library1\\Library1.csproj"
+            },
+            "C:\\Users\\i-nakamura\\source\\repos\\DebugHelper\\Library2\\Library2.csproj": {
+              "projectPath": "C:\\Users\\i-nakamura\\source\\repos\\DebugHelper\\Library2\\Library2.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
