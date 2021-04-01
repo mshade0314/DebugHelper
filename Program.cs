@@ -23,7 +23,6 @@ namespace DebugHelper
             }            
         }
 
-        [DebuggerStepThrough]
         private static Person GetFirstPerson(List<Person> persons)
         {
             var person = persons.FirstOrDefault();
@@ -31,7 +30,6 @@ namespace DebugHelper
         }
     }
 
-    [DebuggerDisplay("Name={Name}, Age={Age}, Teacher1={Menters[0].TeacherName}, Teacher2={Menters[1].TeacherName}")]
     public class Person
     {
         public string Name { get; set; }
